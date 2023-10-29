@@ -1,0 +1,42 @@
+:root {
+  --outer-background-color: #f3f3f3;
+  --inner-background-color: #fff;
+  --blue: #0000ff;
+  --orange: #ff764d;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  background-color: var(--outer-background-color);
+}
+
+.container {
+  max-width: 160rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  background-color: var(--inner-background-color);
+}
+
+.color-orange {
+  color: var(--orange);
+}
+
+.color-blue {
+  color: var(--blue);
+}

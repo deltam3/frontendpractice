@@ -1,0 +1,87 @@
+/****************************************************************/
+/**                 HEADER                                    **/
+/****************************************************************/
+
+.header {
+}
+
+.logo {
+  height: 2.8rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem;
+  border-bottom: 2px solid #eee;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.main-nav-item {
+  text-decoration: none;
+}
+
+.nav-item {
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.nav-item.color-orange {
+  color: var(--orange);
+}
+
+.submain-nav {
+  display: flex;
+  align-items: center;
+}
+
+.submain-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.nav-item.color-blue {
+  color: var(--blue);
+}
+
+.nav-sub-cta {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.submain-nav-item {
+  text-decoration: none;
+}
+
+.bottom-nav {
+  padding: 2.4rem 0;
+}
+
+.bottom-nav-cta-item {
+  color: var(--orange);
+}
+
+.bottom-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.bottom-nav-item {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
