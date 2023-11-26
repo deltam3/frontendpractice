@@ -1,0 +1,74 @@
+:root {
+  --header-background-color: #000000;
+  --hero-background-color: #dadbf1;
+  --accent: #4c5fd5;
+  --white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  text-decoration: none;
+  font-size: 2.4rem;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+}
+
+.btn--full:link,
+.btn--full:visited {
+  color: var(--white);
+  background-color: var(--accent);
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: var(--white);
+  color: black;
+}
