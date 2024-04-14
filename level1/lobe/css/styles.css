@@ -32,3 +32,34 @@
 .hero-img {
   width: 100%;
 }
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer-hr {
+  margin: 0 auto;
+  max-width: 120rem;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.icon-col {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.footer-icon {
+  border-radius: 50%;
+  padding: 0.8rem;
+  background-color: var(--primary);
+  color: white;
+}
