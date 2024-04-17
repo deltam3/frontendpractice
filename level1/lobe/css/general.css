@@ -7,6 +7,14 @@
   --content-max-width: 1272px;
 }
 
+::-moz-selection {
+  background: rgba(0, 230, 184, 0.2);
+}
+
+::selection {
+  background: rgba(0, 230, 184, 0.2);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -29,6 +37,28 @@ body {
   color: var(--primary);
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-font);
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 3.2rem;
+  text-decoration: none;
+}
+
+.logo-img-container {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.logo-img {
+  width: 100%;
+}
+
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -43,15 +73,15 @@ body {
 }
 
 .heading-primary {
-  font-size: 5.2rem;
+  font-size: 8rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 8rem;
   line-height: 1.2;
-  margin-bottom: 9.6rem;
+  margin-bottom: 4.8rem;
 }
 
 .btn,
